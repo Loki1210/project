@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Bookshy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Bookshy</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich dad poor dad</h2>
+            <h5> Robert</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In numquam amet expedita. Et ex fuga hic eveniet eligendi, soluta amet.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input"><br>
+            <textarea placeholder="Short Description" id="book-description-input"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-popup">Cancel</button>
+        </form>
+
+    </div>
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="C:\Users\loki9\OneDrive\Desktop\javascript programming\booksky\script.js"></script>
+    
+</body>
+</html>
